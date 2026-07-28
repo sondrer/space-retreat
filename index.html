@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AES - 25 years of competing designs and cryptanalysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+					<nav>
+							<ul>
+								<li><a href="#intro">Program</a></li>
+								<li><a href="#work">Travel</a></li>
+								<li><a href="#about">Participants</a></li>
+								<li><a href="#contact">Info</a></li>
+								<li><a href="#elements">Secret</a></li>
+							</ul>
+						</nav>
+						<div class="content">
+							<div class="inner">
+								<h1>AES<br> 25 years of competing designs and cryptanalysis <br>12. - 15. April 2026</h1>
+								<blockquote>Despite 25 years of intense study, no truly dangerous attacks against AES have emerged. At the same time, progress in block-cipher design and cryptanalytic techniques has given us a much deeper understanding of what makes designs secure and how they might fail. This raises natural questions: Are there fundamentally better designs? Are there more powerful forms of cryptanalysis yet to be developed? And looking ahead, taking note of NISTs interest in standardizing Rijndael-256, will Rijndael remain the preferred interoperable standard in another 25 years? </blockquote>
+
+							</div>
+						</div>
+						 <div style="text-align: center; margin-top: 2rem;">
+            <img src="images/uib.png" style="width: 100px; height: auto; opacity: 0.8;">
+            <br> E-mail <a href="mailto:sondre.ronjom@uib.no">Sondre Rønjom</a> for any questions 
+        </div>
+						
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+	<article id="intro">
+    <h2 class="major">Program </h2>
+        <div> 
+
+    <style>
+        .tab-buttons { 
+            display: flex; 
+            gap: 10px; 
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1); 
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .tab-link {
+            background: transparent !important;
+            box-shadow: none !important;
+            border: none !important;
+            border-bottom: 2px solid transparent !important;
+            border-radius: 0 !important;
+            padding: 0.5rem 1rem !important;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .tab-link.active {
+            border-bottom: 2px solid #ffffff !important;
+            color: #ffffff !important;
+        }
+        .tab-content { display: none; animation: fadeIn 0.4s ease; }
+        .schedule-item { margin-bottom: 1.5rem; border-left: 2px solid rgba(255, 255, 255, 0.2); padding-left: 1rem; }
+        .time { font-weight: bold; color: #ffffff; display: block; margin-bottom: 0.2rem; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+
+    <div class="tab-buttons">
+        <button class="tab-link active" onclick="openSchedule(event, 'sun')">Sun 12.04</button>
+        <button class="tab-link" onclick="openSchedule(event, 'mon')">Mon 13.04</button>
+        <button class="tab-link" onclick="openSchedule(event, 'tue')">Tue 14.04</button>
+        <button class="tab-link" onclick="openSchedule(event, 'wed')">Wed 15.04</button>
+    </div>
+    <!-- SUNDAY April 12th -->
+    <div id="sun" class="tab-content" style="display: block;">
+        <h3>Sunday April 12th — Arrival & Welcome</h3>
+        <div class="schedule-item">
+            <span class="time">Afternoon/Evening</span>
+            <p>Arrival <a href="https://www.gausta.com">Gaustablikk Fjellresort</a></p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">19:00 – 20:00</span>
+            <p><strong>Reception</strong> (Welcome + drinks)</p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">20:00</span>
+            <p>Dinner (<a href="https://www.gausta.com/en-US/bjork/">3-course dinner at Bjørk Restaurant, Gausta Resort</a> )</p>
+        </div>
+    </div>
+
+    <!-- MONDAY April 13th -->
+    <div id="mon" class="tab-content">
+        <h3>Monday April 13th — Invited Talks</h3>
+        <div class="schedule-item">
+            <span class="time">08:30 – 09:00</span>
+            <p>Coffee</p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">09:00 – 12:00</span>
+            <p>
+            <strong>Session I</strong><br>
+            <b>Joan Daemen, Radboud University </b> <i>  <a href="slides/daemen.pdf" target="_blank">On the origins of Rijndael</a></i><br>
+            <b>Bart Preneel, KUL</b> <i> <a href="slides/preneel.pdf" target="_blank"> Block cipher design pre- and post-AES</a></i><br>
+            <b>Orr Dunkelman, University of Haifa</b> <i>  <a href="slides/dunkelman.pdf" target="_blank">(Almost) Three Decades of AES Cryptanalysis </a></i><br>
+            <b>Tetsu Iwata, Nagoya University</b> <i> <a href="slides/iwata.pdf" target="_blank">Using Rijndael-256 in AES Modes</a></i><br>
+        </p>
+        </div>
+        
+        <div class="schedule-item">
+            <span class="time">12:00 – 13:30</span>
+            <p>Lunch (<a href="https://www.gausta.com/en-US/bjork/">2-course lunch at Bjørk Restaurant, Gausta Resort</a> )</p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">14:00 – 16:00</span>
+            <p>
+                <strong>Session II</strong><br>
+                <b>Henri Gilbert, ANSSI</b> <i> <a href="slides/gilbert.pdf" target="_blank">Leveraging the Exchange Distinguisher in a 6-Round Key Recovery Attack on AES </a> </i><br>
+                <b>Stefano Tessaro, University of Washington</b> <i> <a href="slides/tessaro.pdf" target="_blank">What Can We Prove About AES ?</a></i><br>  
+                <b>Tim Beyne, KUL</b> <i>  <a href="slides/beyne.pdf" target="_blank">Pairwise Independence of AES</a></i><br>
+
+        </p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">17:00 – 20:00</span>
+            <p><strong>Open / group sessions</strong><br>
+            • <a href="https://www.gausta.com/en-US/activity/floating-sauna/?startdate=2026-04-09"><b> We have booked two floating saunas at 18:00-19:00 (10 pax + 10 pax)</b></a><br>
+            • Randonnée or alpine skiing<br>
+            • Cross-country skiing</p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">20:00</span>
+            <p>Dinner (<a href="https://www.gausta.com/en-US/bjork/">3-course dinner at Bjørk Restaurant, Gausta Resort</a> )</p>
+        </div>
+    </div>
+
+    <!-- TUESDAY April 14th -->
+    <div id="tue" class="tab-content">
+        <h3>Tuesday April 14th — Invited Talks + Secret Dining Event</h3>
+        <div class="schedule-item">
+            <span class="time">08:30 – 09:00</span>
+            <p>Coffee</p>
+        </div>
+        
+        <div class="schedule-item">
+            <p>
+
+             <span class="time">09:00 – 12:00</span>
+            <strong>Session I</strong><br>
+            <b>Leo Perrin, INRIA</b> <i>  <a href="slides/perrin.pdf" target="_blank">Using the AES round beyond encryption</a></i><br>
+            
+            <b>Hirotaka Yoshida, AIST </b> <i> AES-based ISO hash algorithm, Lesamnta-LW and 
+a protection profile of AES-employed product </i><br>
+            <b>Yosuke Todo, NTT </b> <i> Cryptanalysis of AES under mode restriction</i><br>
+            <b>Håvard Raddum, Simula UiB </b> <i> <a href="slides/raddum.pdf" target="_blank"> How Ri(j)nda(e)l became AES: the Norwegian version </a></i> <br>
+            <b>Bart Mennink, Maastricht University</b> <i>  <a href="slides/mennink.pdf" target="_blank">Accordion Modes: Basic Idea,
+Known Constructions, and Recent Developments</a></i> <br>
+        </p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">12:00 – 13:30</span>
+            <p>Two-course lunch at Bjørk Restaurant</p>
+        </div>
+
+        <div class="schedule-item">
+            <p>
+            <span class="time">14:00 – 16:00</span>
+
+            <strong>Session II - Standardizing Rijndael-256</strong><br>
+            <b>Meltem Sonmez Turan, NIST</b><i> NIST + AES Talk  </i><br>
+            <b>Bart Preneel, KUL </b> (Discussion Facilitator) <a href="slides/preneel_discussion.pdf" target="_blank">Standardizing Rijndael-256 ?<br>
+            
+        </p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">From 16:45-21:30</span>
+            <p><strong>Secret Dining inside Gaustatoppen</strong> </p>
+            <b>16:45</b> <i>Bus transport from hotel to foot of the mountain </i><br>
+            <b>17:00-21:00</b> <i>Top Secret Dining incl. 3 course dinner at Gaustatoppen </i><br>
+            <b>21:00-21:30</b> <i>Retour back to hotel </i><br>
+        </div>
+    </div>
+
+    <!-- WEDNESDAY April 15th -->
+    <div id="wed" class="tab-content">
+        <h3>Wednesday April 15th — Wrap-up + Lunch</h3>
+        <div class="schedule-item">
+            <span class="time">09:00 – 11:00</span>
+
+            <p>Talks / Discussion Block</p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">11:00 – 12:00</span>
+            <p><strong>Closing Session</strong> </p>
+        </div>
+        <div class="schedule-item">
+            <span class="time">12:00</span>
+             <p>Lunch (<a href="https://www.gausta.com/en-US/bjork/">2-course lunch at Bjørk Restaurant, Gausta Resort</a> )</p>
+        </div>
+    </div>
+
+    <script>
+        function openSchedule(evt, day) {
+            var i, content, links;
+            content = document.getElementsByClassName("tab-content");
+            for (i = 0; i < content.length; i++) { content[i].style.display = "none"; }
+            links = document.getElementsByClassName("tab-link");
+            for (i = 0; i < links.length; i++) { links[i].className = links[i].className.replace(" active", ""); }
+            document.getElementById(day).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</article>
+
+						<!-- Work -->
+							<article id="work">
+    <h2 class="major">Travel</h2>
+    <span class="image main"><center><img src="images/pic02.jpg" style="width: 50%; height: 50%" alt="Gaustatoppen view" /></center></span>
+ 
+
+    <p>Gaustablikk Fjellresort is located approximately 180 km from Oslo. Here are the best ways to reach it in 2026:</p>
+
+    <div class="schedule-item">
+        <span class="time">The easiest and fastest is by rental car (Approx. 2.5 - 3 hours)</span>
+        <p>The fastest route from Oslo is via <strong>E134</strong> towards Drammen and Kongsberg. From Kongsberg, follow <strong>Route 37</strong> towards Rjukan, and then follow the signs up to Gaustablikk. 
+        <br><em>Roads are easy to drive at this time of the year.</em></p>
+    </div>
+
+    <div class="schedule-item">
+        <span class="time">Public Transport (Bus & Train)</span>
+        <p>You can take the <strong>VY Train (R12)</strong> from Oslo Airport or Oslo Central Station direct to Kongsberg. From Kongsberg, there are connecting buses (Route 185) to Rjukan. It is also possible to take Route 185 from Oslo. Rjukan up to Guasta mountain is about 20 min drive with a taxi. </p>
+        <p> 
+        
+    </div>
+
+    <div class="schedule-item">
+    	
+    </div>
+
+   
+</article>
+
+						<!-- About -->
+	<article id="about">
+    <span class="image main"><img src="images/BW_RadioOperator_NIA_PLO_0012-copy.jpg" alt="" /></span>
+
+  
+    <h2 class="major">Participants</h2>
+    
+    <style>
+        .participant-list {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+            column-gap: 2rem;
+            list-style-type: disc;
+            padding-left: 1rem;
+            margin-top: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .participant-list {
+                columns: 1;
+                -webkit-columns: 1;
+                -moz-columns: 1;
+            }
+        }
+    </style>
+
+    <ul class="participant-list">
+<li>Jens Alich (RUB, DE)</li>
+<li>Augustin Bariant (ANSSI, FR)</li>
+<li>Tim Beyne (KU Leuven, BE)</li>
+<li>Christina Boura (IRIF, CNRS, FR)</li>
+<li>Joan Daemen (Radboud University, NL)</li>
+<li>Patrick Derbez (Inria, Fr)</li>
+<li>Orr Dunkelman (University of Haifa, IL)</li>
+<li>Henri Gilbert (ANSSI, FR)</li>
+<li>Lorenzo Grassi (TU/e, NL)</li>
+<li>Shay Gueron (University of Haifa, IL)</li>
+<li>Rachelle Heim (ULB, BE)</li>
+<li>Tor Helleseth (UiB, NO)</li>
+<li>Tetsu Iwata (Nagoya University, JP)</li>
+<li>Jérémy Jean (ANSSI, FR)</li>
+<li>Nathan Keller (Bar Ilan University, IL)</li>
+<li>Gregor Leander (RUB, DE)</li>
+<li>Gaëtan Leurent (Inria, FR)</li>
+<li>Willi Meier (FHNW, CH)</li>
+<li>Bart Mennink (Maastricht University, NL)</li>
+<li>Andreas Minne (Swedisn NCSA, SE) </li>
+<li>Yevhen Perehuda (RUB, DE)</li>
+<li>Leo Perrin (Inria, FR)</li>
+<li>Maria Naya Plasencia (Inria, FR)</li>
+<li>Bart Preneel (KU Leuven, BE)</li>
+<li>Håvard Raddum (Simula UiB, NO)</li>
+<li>Christian Rechberger (TU Graz, AT)</li>
+<li>Vincent Rijmen (KU Leuven, BE)</li>
+<li>Sondre Rønjom (UiB, NO)</li>
+<li>Arne Sandrib (NSM/UiB, NO)</li>
+<li>Le Van Schroeer (BSI, DE)</li>
+<li>Meltem Sonmez Turan (NIST, US)</li>
+<li>Martijn Stam (Simula UiB, NO)</li>
+<li>Lukas Stennes (cryptosolutions GmbH, DE)</li>
+<li>Stefano Tessaro (University of Washington, US)</li>
+<li>Yosuke Todo (NTT, JP)</li>
+<li>Hirotaka Yoshida (AIST, JP)</li>
+<li>Øyvind Ytrehus (UiB, NO)</li>
+<li>Morten Øygarden (UiB, NO)</li>
+
+
+    </ul>
+     <h2 class="major">Organisers</h2>
+    <ul class="participant-list">
+        <li>Sondre Rønjom (UiB) </li>
+        <li>Gregor Leander (RUB)</li>
+    </ul>
+</article>
+
+
+
+
+						<!-- Contact -->
+	<article id="contact">
+    <h2 class="major">Information</h2>
+    
+    <section>
+        <h3>Gausta Resort</h3>
+        <span class="image main"><img src="images/gausta-resort.jpg" alt="Gausta Resort Area" /></span>
+        <p>Located at the foot of the iconic <strong>Gaustatoppen</strong> mountain in Telemark, Gausta is one of Norway's most snow-secure and breathtaking year-round destinations. Experience a unique mountain atmosphere with modern facilities and wild nature.</p>
+        <p><strong>Official Website:</strong> <a href="https://www.gausta.com">www.gausta.com</a></p>
+    </section>
+
+    <hr />
+
+    <h3>Gausta Ski Centre</h3>
+    <p>Gausta offers a diverse skiing experience for all skill levels, featuring:</p>
+    <ul>
+        <li><strong>35 km of slopes:</strong> 37 runs ranging from easy green to challenging black.</li>
+        <li><strong>Unique Access:</strong> Take the <a href="https://www.gaustabanen.no">Gaustabanen</a>, a funicular inside the mountain, to reach the summit for world-class off-piste skiing.</li>
+        <li><strong>Cross-Country:</strong> Over 85 km of groomed trails with stunning views of the mountain plateau.</li>
+    </ul>
+
+    <h3>Activities & Experiences</h3>
+    <p>Whether you visit in winter or summer, there is always something to do:</p>
+    
+    <span class="image main"><img src="images/floating_saunas.jpg" alt="Floating Sauna on Kvitåvatn" /></span>
+    
+    <ul>
+        <li><strong>Floating Saunas:</strong> </li>
+        <li><strong>Ski Touring:</strong> Ski touring Gaustatoppen is one of Norway's most popular randonees.</li>
+        <li><strong>Cross country and slalom</strong> <li> </li>
+    </ul>
+
+    <hr />
+
+    <h3>Quick Links</h3>
+    <ul class="actions">
+        <li><a href="https://www.gausta.com" class="button">Gausta Website</a></li>
+        <li><a href="https://www.gausta.com/kart/" class="button">Slope Map</a></li>
+        <li><a href="https://www.visitnorway.com" class="button">Destination Guide</a></li>
+    </ul>
+</article>
+
+
+						<!-- Elements -->
+						<article id="elements">
+    <h2 class="major">Secret Dining Event</h2>
+    
+    <!-- Bildet du ba om -->
+    <span class="image main"><img src="images/DSC4103-1-1.jpg" alt="Description of the dining event" /></span>
+    
+    <h3>Top Secret Dining inside Gaustatoppen 14/04</h3>
+
+    <p>In Top Secret Dining, participants are taken back in time to the Cold War through storytelling and dramaturgy, to an era when the Iron Curtain stretched across Europe. Throughout the 1950s and 1960s, tensions between the superpowers intensified, and Norway stood as a supporter of the United States. The experience focuses on this atmosphere of tension. Guests are invited to join a thrilling adventure featuring professional actors, excellent food, and captivating stories, all set inside what was once one of Norway’s most secret military defense facilities. The full experience lasts approximately 4 hours.</p>
+
+    <h4>The package includes:</h4>
+    <ol>
+        <li>Round-trip transportation by the funicular railway.</li>
+        <li>Dramaturgy and storytelling with live acting.</li>
+        <li>A three-course dinner in the former listening and transmission hall at the summit.</li>
+        <li>Cognac tasting of Gaustatoppen XO directly from the barrel.</li>
+    </ol>
+
+    <h4>More information</h4>
+    <p>More about the concept and a video teaser can be found here:</p>
+    <p><a href="https://www.youtube.com/watch?v=LHlOYmXsoho" target="_blank">Top secret dining</a></p>
+
+</article>
+
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
